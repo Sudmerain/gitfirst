@@ -4,3 +4,4 @@ add 1 line
 222222222
 33333333
 create a  branch
+fz write a line
