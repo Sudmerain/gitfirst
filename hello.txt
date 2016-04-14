@@ -6,3 +6,4 @@ add 1 line
 create a  branch
 master and fz write a line
 sublime git
+git push
