@@ -9,3 +9,6 @@ git checkout -- filename //撤销工作区的修改
 git reset HEAD filename     git checkout -- filename  //撤销添加到缓存区的修改
 git rm filename   git commit -m "tips...." //删除工作区和版本库里的文件
 rm filename //删除工作区的文件，但是可以通过git checkout -- filename恢复
+git push origin master //把最新修改push到远程版本库
+git clone git@github.com:michaelliao/gitskills.git //从远程库克隆到本地
+
