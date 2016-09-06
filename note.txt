@@ -5,4 +5,7 @@ git commit -m "tips...." //提交文件到版本库
 git log //查看操作历史
 git log --pretty=oneline //单行显示操作历史
 git reset --hard HEAD^ //回退到上一个版本  HEAD^^(上上个版本) HEAD~100(上100个版本)
-
+git checkout -- filename //撤销工作区的修改
+git reset HEAD filename     git checkout -- filename  //撤销添加到缓存区的修改
+git rm filename   git commit -m "tips...." //删除工作区和版本库里的文件
+rm filename //删除工作区的文件，但是可以通过git checkout -- filename恢复
