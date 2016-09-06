@@ -1,0 +1,7 @@
+git status //查看现在工作区的状态
+git diff filename //查看文件和上一次提交文件的不同
+git add filename  //添加一个改动的文件到缓存区
+git commit -m "tips...." //提交文件到版本库
+git log //查看操作历史
+git log --pretty=oneline //单行显示操作历史
+
